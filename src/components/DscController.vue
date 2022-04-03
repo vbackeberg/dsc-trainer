@@ -6,7 +6,8 @@
 
 <style scoped>
 .image-holder {
+  object-fit: scale-down;
   width: 100%;
-  height: fit-content;
+  height: 100%;
 }
 </style>

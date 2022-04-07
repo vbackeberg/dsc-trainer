@@ -1,9 +1,13 @@
+<script setup lang="ts">
+import ButtonDistress from "./ButtonDistress.vue";
+</script>
+
 <template>
   <div class="w-200 h-64 m-auto p-4 border-1 border-black rounded-xl">
     <div class="h-full flex space-x-4">
       <div class="w-1/4 flex flex-col items-center">
         <div class="grow-1 h-full"></div>
-        <button class="ml-auto mr-2 h-20 w-20 bg-red text-white">DISTRESS</button>
+        <ButtonDistress class="ml-auto mr-2 h-20 w-20 bg-red text-white" />
       </div>
 
       <div class="h-full w-1/2 flex flex-col">
@@ -39,8 +43,3 @@
   </div>
 </template>
 
-<style scoped>
-#device-frame {
-  width: 800px;
-}
-</style>

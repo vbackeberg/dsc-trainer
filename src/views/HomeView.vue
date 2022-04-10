@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import DscController from "@/components/DscController.vue";
+import DeviceControls from "../components/DeviceControls.vue";
 </script>
 
 <template>
   <main>
-    <DscController />
+    <DeviceControls />
   </main>
 </template>
 

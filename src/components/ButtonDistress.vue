@@ -18,10 +18,9 @@ export default defineComponent({
             const interval = setInterval(() => {
                 timer++;
                 if (timer >= 3) {
-                    console.log("distress alert event");
                     document.dispatchEvent(new Event("distress-alert"));
                 }
-            }, 500);
+            }, 1000);
         },
         startAlarm() {
             console.log("distress call");
